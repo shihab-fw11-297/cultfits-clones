@@ -1,0 +1,60 @@
+.ImageContainer{
+  width: 100%;
+}
+
+
+
+.staticdata>img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin:0px;
+    padding:0px;
+}
+
+.staticdata{
+  margin: auto;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.be_better_section{
+  margin: auto;
+}
+
+.be_better_section .container {
+    width:1200px;
+    margin:100px auto;
+  }
+  
+  .be_better_section h2 {
+    width: 472px;
+    font-size: 96px;
+    font-weight: bold;
+    line-height: 133px;
+    text-transform: uppercase;
+    color: #33363F;
+  }
+  
+  .be_better_section h2 span {
+    color: #b2b2b2;
+    font-size: 80px;
+    line-height: 111px;
+    font-weight: bold;
+    color: #908E8E;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+
+    .staticdata{
+      display: none;
+    }
+
+    .be_better_section{
+      display: none;
+    }
+ 
+ 
+  }
+

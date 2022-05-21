@@ -1,0 +1,333 @@
+#login-button {
+  margin-left:8px;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  border:none;
+  background:white;
+  cursor: pointer;
+}
+
+#signin-render #cancelinlogin {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.562);
+  height: 10px;
+  width: 20px;
+  margin-left: 350px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#signin-render #page-one-social {
+  width: 262px;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  border: none;
+  margin-top: 200px;
+  margin-left: 57px;
+  color: #333333;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+#signin-render #sign-up {
+  height: 20px;
+  margin-left: 107px;
+  margin-top: 25px;
+  display: flex;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#signin-render #sign-up button {
+  border: none;
+  background-color: white;
+  color: rgb(250, 87, 115);
+  text-decoration: underline;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* css for login form begins from here */
+#loginform {
+  width: 90%;
+  height: 240px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#loginform #logo {
+  width: 60px;
+  height: 85px;
+  margin: -20px auto;
+  margin-bottom: 46px;
+}
+#loginform input {
+  margin: 20px auto;
+  width: 262px;
+  border: none;
+  border-bottom:0.5px solid #333333;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 13px;
+  padding-bottom:10px;
+}
+
+
+#loginform input:focus{
+  outline: none;
+}
+
+#loginform input::placeholder{
+  font-style: normal;
+  font-weight: 390;
+  font-size: 13px;
+  line-height: 30px;
+  color: #C9C9C9;
+}
+
+
+
+#loginform button {
+  margin: 30px auto;
+  width: 262px;
+  height: 10px;
+  padding: 10px 0px 30px 0px;
+  border: none;
+  font-style: normal;
+  font-weight: 420;
+  font-size: 16px;
+  line-height: 20px;
+
+  background: #c9c9c9;
+  color: white;
+  border-radius: 100px;
+  cursor:pointer
+}
+
+#loginform div {
+  width: 262px;
+  height: 40px;
+  margin: 0px auto;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#loginform a {
+  color: black;
+}
+
+.loginP{
+  text-align: center;
+  color:#ff3278;
+}
+
+/* css for sign-up form begins from here */
+
+#signupform {
+  width: 90%;
+  height: 240px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+#signupform #logo {
+  width: 60px;
+  height: 85px;
+  margin: -20px auto;
+}
+
+#signupform #namebar {
+  width: 282px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#signupform #namebar input {
+  width: 120px;
+  height: 40px;
+
+  margin: 5px auto;
+  border: none;
+  border-bottom: 0.5px solid #333333;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 13px;
+  /* padding-top:5px; */
+}
+
+#signupform input {
+  margin: 20px auto;
+  width: 262px;
+  border: none;
+  border-bottom: 0.5px solid #333333;
+  line-height: 30px;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 13px;
+}
+
+#signupform input::placeholder{
+  font-style: normal;
+  font-weight: 390;
+  font-size: 13px;
+  line-height: 20px;
+  color: #C9C9C9;
+}
+
+#signupform input:focus {
+  outline:none;
+}
+
+#signupform button {
+  margin: 30px auto;
+  width: 262px;
+  height: 10px;
+  padding: 10px 0px 30px 0px;
+  border: none;
+  font-style: normal;
+  font-weight: 420;
+  font-size: 16px;
+  line-height: 20px;
+  background: linear-gradient(90deg, #ff3278 0%, #f74432 100%);
+  color: white;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#signupform div {
+  width: 262px;
+  height: 40px;
+  margin: 0px auto;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+#signupform a {
+  color: rgb(252, 105, 130);
+}
+
+#signin-render .social-two {
+  margin-top: 240px !important;
+}
+
+/* social-page CSS starts here */
+
+#social-page {
+  width: 90%;
+  height: 240px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+#social-page #logo {
+  width: 60px;
+  height: 85px;
+  margin: -20px auto;
+  margin-bottom: 25px;
+}
+#social-page button {
+  width: 261px;
+  margin: 25px auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 12px 17px;
+  padding-bottom: 12px;
+  border: none;
+  display: flex;
+  font-style: normal;
+  font-weight: 420;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+
+#social-page button img {
+  margin-right: 12px;
+  margin-top: -2px;
+}
+
+#social-page #buttonone {
+  background: #4385f4;
+  color: white;
+}
+
+#social-page #buttontwo {
+  background: #4267b2;
+  color: white;
+}
+
+#social-page #buttonthree {
+  background: #ffffff;
+  color: black;
+
+}
+
+
+
+.downarrow{
+  margin-left:10px;
+  cursor: pointer;
+}
+
+.dropdownmenu{
+  position:absolute;
+  top:60px;
+  right:50px;
+  padding:0px 20px;
+  padding-right:50px;
+  background-color: white;
+  box-shadow: rgb(186 182 182 / 50%) 0px 2px 24px 0px;
+}
+
+.dropdownmenu img{
+  margin-right: 30px;
+}
+
+.dropdownmenu>div{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin:15px 0px;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.dropdownmenu>div:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.orders img{
+  margin-right: 25px;
+}
+
+
+.AlreadyRegister{
+  margin-left: 35px;
+}
